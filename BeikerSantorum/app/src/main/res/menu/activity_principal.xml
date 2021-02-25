@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Configuración"
+        app:showAsAction="never" />
+    <item android:title="Archivos">
+        <menu>
+            <item android:id="@+id/opcionMemoriaInterna" android:title="MemoriaInterna"/>
+            <item android:id="@+id/opcionMemoriaPorgrama" android:title="MemoriaPrograma"/>
+            <item android:id="@+id/opcionMemoriaExterna" android:title="MemoriaExterna"/>
+        </menu>
+    </item>
+    <item android:id="@+id/opcionActividades"
+        android:title="Actividades">
+        <menu>
+            <item
+                android:id="@+id/opcionParametros"
+                android:title="Parámetros"/>
+            <item
+                android:id="@+id/opcionLogin"
+                android:title="Login"/>
+            <item
+                android:id="@+id/opcionDialogo"
+                android:title="Diálogo"/>
+            <item
+                android:id="@+id/opcionWeb"
+                android:title="Diálogo"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/opcionSensores"
+        android:title="Sensores">
+        <menu>
+            <item
+                android:id="@+id/opcionAcelerometro"
+                android:title="Acelerometro"/>
+            <item
+                android:id="@+id/opcionProximididad"
+                android:title="Proximididad"/>
+            <item
+                android:id="@+id/opcionFragmentos"
+                android:title="Fragmentos"/>
+        </menu>
+    </item>
+</menu>
